@@ -1,0 +1,83 @@
+body {
+    background-image: url("Homepage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .navbar li a
+ {
+     padding: 0px 30px;
+     display: inline-block;
+     list-style: none;
+     font-size: x-large;
+     text-decoration: none;
+     color: whitesmoke;
+     position:relative;
+ }
+
+ .navbar li a:before
+ {
+           content: "";
+           position: absolute;
+           bottom: -2px;
+           height: 3px;
+           width: 0;
+           background: aqua;
+           border-radius: 50%;
+           transition: width 0.3s ease;
+ }
+
+ .navbar li a:hover:before
+ {
+     width: 100%;
+ }
+ .log.log:hover
+ {
+     background-color: #676a67;
+     /* Green */
+     color:white ;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.8s;
+     border-radius: 3px;
+     
+ }
+
+
+ .sign.sign:hover
+ {
+     background-color: #676a67;
+     /* Green */
+     color:white ;
+     box-shadow: #2f322f;
+     transition-duration: 0.8s;
+     border-radius: 3px;
+     
+ }
+
+ .sign.sign:hover
+ {
+     background-color: #676a67;
+     /* Green */
+     color:white ;
+     box-shadow: #2f322f;
+     transition-duration: 0.8s;
+     border-radius: 3px;
+     
+ }
+
+ .log
+ {
+     font-family: sans-serif;
+     background-color: white;
+     text-align: right;
+ }
+ .sign 
+ {
+     font-family: sans-serif;
+     background-color: white;
+ }
+ .buttons
+ {
+    margin-top: 5px;
+    font-size: 20px;
+ }
